@@ -1,6 +1,5 @@
 package edu.pitt.lab4;
 
-import javax.management.StringValueExp;
 import javax.swing.JOptionPane;
 
 public class Logarithm {

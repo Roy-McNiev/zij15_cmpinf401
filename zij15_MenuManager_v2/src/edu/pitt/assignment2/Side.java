@@ -1,18 +1,18 @@
-package edu.pitt.assignment1;
+package edu.pitt.assignment2;
 
 /**
- * Class Salad
+ * Class Side
  * @author Peter Ju
  * created: 10/05/2022
  */
-public class Salad {
+public class Side {
 	// Defining variables
 	private String name;
 	private String desc;
 	private int cal;
 	
 	// Constructor
-	public Salad(String name, String desc, int cal) {
+	public Side(String name, String desc, int cal) {
 		this.name = name;
 		this.desc = desc;
 		this.cal = cal;

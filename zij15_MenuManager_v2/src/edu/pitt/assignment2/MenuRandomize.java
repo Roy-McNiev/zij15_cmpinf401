@@ -1,4 +1,4 @@
-package edu.pitt.assignment1;
+package edu.pitt.assignment2;
 
 import java.util.ArrayList;
 

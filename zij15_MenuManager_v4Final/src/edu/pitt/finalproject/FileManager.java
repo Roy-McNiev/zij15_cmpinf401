@@ -1,4 +1,4 @@
-package edu.pitt.assignment3;
+package edu.pitt.finalproject;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  * Class FileManager
  * @author Peter Ju
- * created: 11/12/2022
+ * @since 11/12/2022
  */
 public class FileManager {
 	
@@ -40,7 +40,8 @@ public class FileManager {
 				else if ("salad".equals(data[1]))
 					res.add(new Salad(data[0], data[2], Integer.parseInt(data[3]), 
 							Double.parseDouble(data[4])));
-				else res.add(new Dessert(data[0], data[2], Integer.parseInt(data[3]), 
+				else if("dessert".equals(data[1]))
+					res.add(new Dessert(data[0], data[2], Integer.parseInt(data[3]), 
 							Double.parseDouble(data[4])));
 			}
 			
@@ -93,16 +94,5 @@ public class FileManager {
 			
 		} catch (IOException e) { e.printStackTrace(); }
 		
-	}
-	
-	public static void main(String[] args) {
-		ArrayList<Menu> l = new ArrayList<>();
-		
-		l.add(new Menu("e", new Entree("s","s",10,10), new Side("s","s",10,10), new Salad("s","s",10,10), new Dessert("s","s",10,10)));
-		
-		System.out.println("start");
-		
-		FileManager.writeMenu("data/menu.txt", l);
-		System.out.println("fininsh");
 	}
 }

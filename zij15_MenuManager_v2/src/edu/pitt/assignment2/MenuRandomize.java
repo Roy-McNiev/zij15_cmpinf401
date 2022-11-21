@@ -2,6 +2,11 @@ package edu.pitt.assignment2;
 
 import java.util.ArrayList;
 
+/**
+ * Class MenuRandomize
+ * @author ziyiju
+ * created: 10/05/2022
+ */
 public class MenuRandomize {
 	// Defining variables
 	private ArrayList<Entree> entrees;
@@ -10,6 +15,13 @@ public class MenuRandomize {
 	private ArrayList<Dessert> desserts;
 	
 	// Constructor
+	/**
+	 * Constructor MenuRandomize
+	 * @param entreeFile
+	 * @param sideFile
+	 * @param saladFile
+	 * @param dessertFile
+	 */
 	public MenuRandomize(String entreeFile, String sideFile, String saladFile, String dessertFile) {
 		entrees = FileManager.readEntrees(entreeFile);
 		sides = FileManager.readSides(sideFile);

@@ -1,11 +1,11 @@
-package edu.pitt.assignment3;
+package edu.pitt.finalproject;
 
 import java.util.ArrayList;
 
 /**
  * Class MenuManager
  * @author Peter Ju
- * created 11/12/2022
+ * @since 11/12/2022
  */
 public class MenuManager {
 	
@@ -16,6 +16,10 @@ public class MenuManager {
 	private ArrayList<Dessert> desserts = new ArrayList<>();
 	
 	// Constructor
+	/**
+	 * Constructor MenuManager
+	 * @param dishesFile the path of the file containing all {@code MenuItem} or dishes
+	 */
 	public MenuManager(String dishesFile) {
 		ArrayList<MenuItem> items = FileManager.readItem(dishesFile);
 		separate(items);

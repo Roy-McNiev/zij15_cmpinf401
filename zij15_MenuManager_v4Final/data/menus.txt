@@ -1,0 +1,15 @@
+r: 
+Entree: Mashed Potatoes. Though not chips, they are still what Nova favors.. Calories9474. $100.88. 
+Side: Sprite 1000mL. Nova decided to have this labeled as a side dish.. Calories70. $3.5. 
+Salad: Caesar. Traditional nerds.... Calories100. $90.0. 
+Dessert: Taro Pie. Not that much tropical, but smoother and sweeter.. Calories200. $77.0. 
+min: 
+Entree: Beef Noodle. Noodle, but with only one slice on beef. Exclusively valuable!. Calories600. $102.7. 
+Side: Kantodaki. Variety!!!. Calories1. $9.8. 
+Salad: Nova Salad. Leaves with edible metal and wires (since we all say Nova is an AI).. Calories0. $30.0. 
+Dessert: Pineapple Pie. Nothing much to say about this self explanatory tropical dish.. Calories100. $47.4. 
+max: 
+Entree: Fake Vietnamese Rice Noodle. No one knows why Nova likes that.. Calories100000. $90.0. 
+Side: Burgers. Very similar to that from Burger King. No copystrike!. Calories100000. $55.0. 
+Salad: Void. Literally nothing there.. Calories10000. $100000.0. 
+Dessert: Creamed Biscuits. Best choice for some quick enjoyment.. Calories50000. $19.0. 
